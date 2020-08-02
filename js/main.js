@@ -51,8 +51,8 @@ window.addEventListener('load', function(){
     });
 
   } else {
-    $('body').attr('style', 'overflow: auto');
-    $('section').attr('style', 'overflow: hidden');
+    $('body').addClass('overflow');
+    $('section').addClass('overflow');
 
     $('body').scroll(function() {
 
